@@ -1,8 +1,5 @@
 <img width="661" style="text-align: center;" height="113" alt="image" src="https://github.com/user-attachments/assets/73ac4cb9-dfc7-4965-9dd6-1a7db7ec5a94" />
-﻿
-
-*Website to demo :3*
-https://thelibraryoflovenebula.github.io/Microsoft-Lite-Project/
+<a href="https://thelibraryoflovenebula.github.io/Microsoft-Lite-Project/" target="_blank"> *Website to demo :3*</a>
 
 
 
