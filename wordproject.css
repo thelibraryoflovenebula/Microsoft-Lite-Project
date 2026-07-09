@@ -1,0 +1,32 @@
+body {
+    margin: 1em;
+}
+
+#selectorsdiv, #outputdiv {
+    justify-content: center;
+    margin: 3em;
+    border: 2px solid black;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+#output {
+    border: 1px solid gray;
+    padding: 1em;
+
+}
+
+#createtextbox {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+#text, textarea {
+    width: 100%;
+}
+
+textarea {
+    height: 100%;
+}
