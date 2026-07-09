@@ -30,3 +30,47 @@ body {
 textarea {
     height: 100%;
 }
+
+.titleDiv {
+    text-align: center;
+}
+
+.maintitle {
+    font-size: 500%;
+    text-align: center;
+    color: lightgray;
+}
+
+.topthing {
+    color: darkgray;
+}
+
+.bottomthing {
+    font-size: 70%;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    padding-top: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+}
+
+.warning {
+    justify-content: center;
+    display: flex;
+}
+
+main {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#micro {
+    margin: 0 1em 0 0;
+    height: 100px;
+}

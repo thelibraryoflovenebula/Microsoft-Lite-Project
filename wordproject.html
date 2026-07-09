@@ -11,69 +11,101 @@
     </head>
     <body>
 
-        <div id="selectorsdiv"> 
+        <header>
+            <img id="micro" src="MicrosoftLogo.webp" akt="logo titlepfff">
+            <h1 class="maintitle"> Microsoft Word <em>Lite</em> </h1>
+        </header>
 
-            <div class="row">
-                <div class="col" id="createtextbox">
-                    <button onclick="grab()" id="grabshit"> Create </button> 
-                    <input type="text" id="text" placeholder="Enter desired text"> <br>
-                </div>
-            </div>
-
-            <div class="row">
-    
-                <div class="col">
-                    <label for="color"><b>Select a color</b></label>
-                    <select id="color">
-                        <option value="black" checked> Black</option>
-                        <option value="red"> Red</option>
-                        <option value="orange"> Orange </option>
-                        <option value="yellow"> Yellow </option>
-                        <option value="green"> Green </option>
-                        <option value="blue"> Blue </option>
-                        <option value="indigo"> Indigo </option>
-                        <option value="violet"> Violet </option>
-                        <option value="pink"> Pink </option>
-
-                    </select>
-                </div>
-
-                <div class="col">
-                    <label for="style"> <b>Select a style</b>  </label> <br>
-                    <input type="radio" id="p" value="p" name="style" checked> <label for="p"> Paragraph</label> <br>
-                    <input type="radio" id="h1" value="h1" name="style"> <label for="h1"> Heading 1</label> <br>
-                    <input type="radio" id="h2" value="h2" name="style"> <label for="h2"> Heading 2 </label> <br>
-                    <input type="radio" id="h4" value="h4" name="style"> <label for="h4"> Heading 4</label> <br>
-                </div>
-
-                <div class="col">
-                    <label for="font"> <b>Select font style</b></label> <br>
-                    <input type="radio" name="font" id="nfont" value="0" checked> <label for="nfont"> Normal</label> <br>
-                    <input type="radio" name="font" id="emfont" value="1"> <label for="emfont"> Emphasis</label> <br>
-                    <input type="radio" name="font" id="boldfont" value="2"> <label for="boldfont"> Bold </label> <br>
-                </div>
-            </div>
-
+        <div class="warning">
+            <sub><em>Warning: this is not an actual microsoft project please dont fucking sue me</em></sub>
         </div>
 
 
 
 
 
-        <!--where the shit will spew out-->
-        <div id="outputdiv">
+
+
+        <main>
+            <!-- THIS IS A TITLE DIV-->
+            <div class="titleDiv">
+                <h1 class="topthing"> Sentence Creator </h1>
+                <p class="bottomthing"> <b>INSTRUCTIONS:</b> Type in your desired text with given parameters, then click the <b>"Create"</b> button to print onto the word document :3</p>
+            </div>
+
+
+            <!--where you can create shit-->
+            <div id="selectorsdiv"> 
+
+                <div class="row">
+                    <div class="col" id="createtextbox">
+                        <button onclick="grab()" id="grabshit"> Create </button> 
+                        <input type="text" id="text" placeholder="Enter desired text"> <br>
+                    </div>
+                </div>
+
+                <div class="row">
         
+                    <div class="col">
+                        <label for="color"><b>Select a color</b></label>
+                        <select id="color">
+                            <option value="black" checked> Black</option>
+                            <option value="red"> Red</option>
+                            <option value="orange"> Orange </option>
+                            <option value="yellow"> Yellow </option>
+                            <option value="green"> Green </option>
+                            <option value="blue"> Blue </option>
+                            <option value="indigo"> Indigo </option>
+                            <option value="violet"> Violet </option>
+                            <option value="pink"> Pink </option>
 
+                        </select>
+                    </div>
 
-            <button onclick="resetpage()" id="resetshit">Reset page</button><br><br>
-            <div id="output"> 
+                    <div class="col">
+                        <label for="style"> <b>Select a style</b>  </label> <br>
+                        <input type="radio" id="p" value="p" name="style" checked> <label for="p"> Paragraph</label> <br>
+                        <input type="radio" id="h1" value="h1" name="style"> <label for="h1"> Heading 1</label> <br>
+                        <input type="radio" id="h2" value="h2" name="style"> <label for="h2"> Heading 2 </label> <br>
+                        <input type="radio" id="h4" value="h4" name="style"> <label for="h4"> Heading 4</label> <br>
+                    </div>
+
+                    <div class="col">
+                        <label for="font"> <b>Select font style</b></label> <br>
+                        <input type="radio" name="font" id="nfont" value="0" checked> <label for="nfont"> Normal</label> <br>
+                        <input type="radio" name="font" id="emfont" value="1"> <label for="emfont"> Emphasis</label> <br>
+                        <input type="radio" name="font" id="boldfont" value="2"> <label for="boldfont"> Bold </label> <br>
+                    </div>
+                </div>
 
             </div>
 
-        </div>
+
+            <!-- THIS IS A TITLE DIV-->
+            <div class="titleDiv">
+                <h1 class="topthing"> Word Document </h1>
+                <p> <b>INSTRUCTIONS:</b> Create till your hearts content. To reset the page press the <b>"Reset page"</b> button to clear the text :3</p>
+            </div>
+
+            <!--where the shit will spew out-->
+            <div id="outputdiv">
+            
+
+
+                <button onclick="resetpage()" id="resetshit">Reset page</button><br><br>
+                <div id="output"> 
+
+                </div>
+
+            </div>
+        </main>
 
         
 
+        <footer> 
+            <p> Created by: Neil Patrick Olaires @2026, known on github as: <a href="http://github.com/thelibraryoflovenebula">libraryoflovenebula</a>
+             </p> 
+        </footer>
 
 
 
@@ -82,8 +114,6 @@
 
 
         <script src="wordproject.js"> </script>
-
-
     </body>
 
 </html>
