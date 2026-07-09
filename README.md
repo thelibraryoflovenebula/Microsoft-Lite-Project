@@ -1,13 +1,19 @@
-<img width="661" style="text-align: center;" height="113" alt="image" src="https://github.com/user-attachments/assets/73ac4cb9-dfc7-4965-9dd6-1a7db7ec5a94" />
+<h1> Microsoft Word Lite </h1>
+Interactive word document that is (obviously) not the same or has any of the functionality of original microsoft word programs but this mimics the very very very most basic features of writing, hence, the word "lite." <br><br>
 <a href="https://thelibraryoflovenebula.github.io/Microsoft-Lite-Project/" target="_blank"> *Website to demo :3*</a>
 
+<br> <br>
+This is a javascript/html program i basically created myself as a means of practicing certain javascript functions, basically DOM manipulation. Notable stuff i learned was a lot of document.getElementById stuff, and a lot of addEventListener stuff in the sense there were a lot of stuff that needed input. This also pratice some of my form making which was cool. anyways yeah this is basically the reason why i made it. below is the website to demo the functionality of this.
 
 
 
 
 
 
-**1: CREATE YOUR TEXT** Top bar used to create text with different parameters
+
+
+
+<h2> 1: CREATE YOUR TEXT </h2> Top bar used to create text with different parameters
 <ul>
 	<li> Color (Black, ROYGBIV) </li>
 	<li> Text Style (p, h1, h2, h4) </li>
@@ -18,7 +24,7 @@
 
 
 	
-**2: WORD DOCUMENT ** Bottom bar used to paste the created text from above
+<h2> 2: WORD DOCUMENT </h2> Bottom bar used to paste the created text from above
 <ul>
 	<li> Button used to reset page</li>
 </ul>
